@@ -121,7 +121,8 @@ First install the latest version of x-ui on the server where v2-ui is installed,
 x-ui v2-ui
 ````
 
-## Issues Fixed on latest update
+## Issues Fixed until the latest update
 
-- GLIBV 2.28 Not Found -- Fixed
+- GLIBC 2.28 Not Found -- Fixed 
 - Workflow error on TG Bot -- Fixed (TG Bot feature temporarily removed)
+- One-click SSL installation -- Fixed 
