@@ -79,8 +79,12 @@ docker build -t x-ui .
 
 > This function and tutorial are provided by [FranzKafkaYu](https://github.com/FranzKafkaYu)
 
-The script has a built-in SSL certificate application function. To use this script to apply for a certificate, the following conditions must be met:
+The script has 2 built-in SSL certificate application functions. 
+### 1st Method (Recommended)
+To use this method to apply for a certificate, your server's IP addres being correctly pointed to a domain or subdomain that you own is the only requirement.
 
+### 2nd Method (Use if the above one fails)
+This is not beginner frienly as much as the first one. To use this method, all of the follwoing prerequisites should be met:
 - Knowing the Cloudflare registered email address
 - Knowing the Cloudflare Global API Key
 - Having domain name has been resolved to the current server through cloudflare
