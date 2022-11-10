@@ -1,3 +1,6 @@
+# ⚠ Fork Abandoned! This forked repositry is no longer maintained. Project contenues as a standalone repository at https://github.com/NidukaAkalanka/x-ui-english/
+Decided because the fork was unable to keep it's status as a fork, and there is no point of maintaing a fork if I can't open up a mergable pull request. 
+
 # X-UI ENGLISH VERSION
 
 The Translated-to-English Version of [Yu FranzKafka's x-ui](https://github.com/vaxilu/x-ui), forked from [vaxilu's awesome repo](https://github.com/vaxilu/x-ui/) which is a Multi-protocol Multi-user Xray Panel
