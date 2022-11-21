@@ -94,7 +94,7 @@ before_show_menu() {
 }
 
 install() {
-    bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/main/install.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english.old/main/install.sh)
     if [[ $? == 0 ]]; then
         if [[ $# == 0 ]]; then
             start
@@ -113,7 +113,7 @@ update() {
         fi
         return 0
     fi
-    bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/main/install.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english.old/main/install.sh)
     if [[ $? == 0 ]]; then
         LOGI "Update is completed, panel has been automatically restarted "
         exit 0
@@ -302,7 +302,7 @@ install_bbr() {
 }
 
 update_shell() {
-    wget -O /usr/bin/x-ui -N --no-check-certificate https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/main/x-ui.sh
+    wget -O /usr/bin/x-ui -N --no-check-certificate https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english.old/main/x-ui.sh
     if [[ $? != 0 ]]; then
         echo ""
         LOGE "Update download failed, please check whether the machine can connect to Github"
