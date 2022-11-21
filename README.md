@@ -27,7 +27,7 @@ The Translated-to-English Version of [Yu FranzKafka's x-ui](https://github.com/v
 # Single Command Install & upgrade
 
 ````
-bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english.old/master/install.sh)
 ````
 
 ## Manual install & upgrade
